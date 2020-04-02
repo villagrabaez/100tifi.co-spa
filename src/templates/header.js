@@ -1,20 +1,20 @@
 const HEADER = () => {
   const VIEW = `
-    <div class="header-main">
-      <div class="header-logo">
-        <h1>
-          <a href="/">
-            100tifi.co
-          </a>
-        </h1>
-      </div>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="/">100tifi.co</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <div class="header-nav">
-        <a href="#/about/">
-          About
-        </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="mr-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#/about/">About</a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
   `;
   return VIEW
 }

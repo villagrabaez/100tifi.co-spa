@@ -8,36 +8,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.header-main {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .header a {
   text-decoration: none;
   color: #15302C;
 }
 
-.main {
-  padding: 10px;
-  grid-template-columns: minmax(auto, 976px);
-  display: grid;
-  justify-content: center;
-}
-
-.characters {
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1.5rem;
-  grid-row-gap: 1.5em;
-  display: grid;
-}
-
-.characters-inner {
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 1.5rem;
-  grid-row-gap: 1.5em;
-  display: grid;
+nav.navbar.navbar-expand-lg {
+  height: 80px;
 }
 
 .characters-card {
@@ -59,6 +36,7 @@ body {
 .characters-card h2 {
   font-size: 18px;
   font-weight: 400;
+  margin: 10px 0;
   text-align: center;
 }
 
